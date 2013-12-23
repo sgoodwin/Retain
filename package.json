@@ -1,0 +1,22 @@
+{
+  "name": "Retain",
+  "version": "0.0.1",
+  "description": "Keep lists of stuff you saw on some website you might want to buy later. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sgoodwin/Retain.git"
+  },
+  "author": "Samuel Goodwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoodwin/Retain/issues"
+  },
+  "homepage": "https://github.com/sgoodwin/Retain",
+  "engines": {
+    "node": "0.10.24"
+  }
+}
