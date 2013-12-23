@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ title }}</title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><a href="/">{{ title }}</a></h1>
+<p>Welcome to {{ title }}</p>
+
+<ul>
+  {{#lists}}
+  <li><a href="/{{slug}}">{{name}}</a></li>
+  {{/lists}}
+</ul>
+</body>
+</html>

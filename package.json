@@ -4,11 +4,17 @@
   "description": "Keep lists of stuff you saw on some website you might want to buy later. ",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/"
+    "test": "tap test/",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/sgoodwin/Retain.git"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "hjs": "*",
+    "less-middleware": "*"
   },
   "author": "Samuel Goodwin",
   "license": "ISC",
