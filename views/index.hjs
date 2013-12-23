@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ title }}</title>
+<title>Retain</title>
 <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-<h1><a href="/">{{ title }}</a></h1>
-<p>Welcome to {{ title }}</p>
+<h1><a href="/">Retain</a></h1>
+<p>Welcome to Retain. It lets you keep lists of stuff you saw on some website you might want to buy later.</p>
 
 <ul>
   {{#lists}}
